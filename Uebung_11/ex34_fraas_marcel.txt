@@ -1,0 +1,17 @@
+Fraas Marcel
+
+Exercise 34
+
+a) supervised, unsupervised, reinforcement learning
+b) Task: Predict continuous output variable from input
+   Experience: (x,y) examples
+   Performance: Root Mean Squared Error
+c) Training-Data is "seen" by Algorithm;
+   Test-Data is new to Algorithm and therefore used for evaluation
+d) To prevent overfitting;
+   Test-Data was chosen random out of all Data-Points in set
+f) To have a convex function (which is differentiable) with a unique minimum (for optimizazion)
+g) "Gradient-descent" to find Minimum;
+   Cost-Function =: J
+   Parameters of regression Function =: w,b
+h) The learning rate prevents the Algorithm from "taking a too big step" when calculating a new parameter w
