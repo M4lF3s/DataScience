@@ -1,0 +1,29 @@
+Fraas Marcel
+
+======
+Ex.38
+======
+
+a)
+i. Activation Function
+RELU for early layers
+SIGMOID / SOFTMAX for later layers
+defines the output of one node -> e.g. value of 0 or 1 for each number
+
+ii. Optimizer
+Gradient Descent, RMSprop
+updating the model in response to the output of the loss function
+
+iii. Loss Function
+Categorical Cross Entropy
+Evaluating how well your algorithm models your dataset
+
+iv. Metrics
+accuracy
+keep track of how accurate the network is
+
+v. epochs
+The number of epochs is a hyperparameter that defines the number of times that the learning algorithm will work through the entire training dataset
+
+vi. batch size
+The batch size is a hyperparameter that defines the number of samples to work through before updating the internal model parameters
